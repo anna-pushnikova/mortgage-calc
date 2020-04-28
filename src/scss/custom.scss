@@ -1,0 +1,30 @@
+$body-bg: #222646;
+$card-bg: #2f3761;
+$body-color: #fff;
+$card-spacer-y: 1.4rem;
+$input-bg: #5a6185;
+$input-disabled-bg: #7e86ad;
+$input-color: #fff;
+$input-border-width: 0;
+
+$custom-range-thumb-bg:  #742454; 
+$custom-range-thumb-active-bg:     #742454;   
+$custom-range-thumb-disabled-bg:  #742454;   
+
+$container-max-widths: (
+  sm: 500px,
+  md: 520px,
+  lg: 760px,
+  xl: 840px
+) !default;
+
+
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+
+@import 'bootstrap/scss/_grid.scss';
+@import 'bootstrap/scss/_custom-forms.scss';
+@import 'bootstrap/scss/_card.scss';
+@import 'bootstrap/scss/_forms.scss';
+@import 'bootstrap/scss/_reboot.scss';

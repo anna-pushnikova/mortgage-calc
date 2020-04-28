@@ -1,0 +1,87 @@
+@import './custom.scss';
+
+.card-title {
+  margin-bottom: 0 !important;
+}
+
+.my-container {
+  margin-top: 25px;
+}
+
+.my-card-header {
+  text-align: center;
+}
+
+.my-result {
+  font-size: 30px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 13.8px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #68709e;
+  border-radius: 2px;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #c91d57;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #7e86ad;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #68709e;
+  border-radius: 2px;
+}
+input[type=range]::-moz-range-thumb {
+  height: 36px;
+  width: 16px;
+  border-radius: 4px;
+  background: #c91d57;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-thumb {
+  height: 36px;
+  width: 16px;
+  border-radius: 4px;
+  background: #c91d57;
+  cursor: pointer;
+  height: 8.4px;
+}
+
+// background-color: #222646; темный для фона
+// #242b51 слегка посветлее
+
+// #c91d57 яркий малиновый
+// #742454 потемнее малиновый
+// #55c554 яркий зеленый
+// #2bb469 зеленый поспокойнее
+// #f65a41 яркиий оранжевый
+// #313777 фиолетовый
+
+// #dcdde3 цвет шрифта тонкий
